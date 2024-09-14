@@ -1,0 +1,65 @@
+/* team-list.module.css */
+
+.container {
+    max-width: var(--container-max-width);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+}
+
+.teamList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;               /* Enable flexbox for side-by-side items */
+    flex-wrap: wrap;             /* Allow items to wrap if they exceed the container width */
+    gap: 20px;                   /* Add space between the items */
+    justify-content: center;     /* Center the team members */
+}
+
+.teamItem {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;     /* Ensure image and text stack inside each box */
+    text-align: center;
+    width: 200px;               /* Set a fixed width for each box */
+}
+
+.teamLink {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+}
+
+.teamImage {
+    border-radius: 10%;
+    margin-bottom: 5px;
+}
+
+.teamDetails {
+    text-align: center;
+}
+
+.teamName {
+    font-size: 15px;
+    margin: 0;
+    color: var(--primary-text-color);
+}
+
+.teamCompany {
+    font-size: 1rem;
+    color: var(--primary-text-color);
+}

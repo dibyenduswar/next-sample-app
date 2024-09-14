@@ -1,0 +1,50 @@
+/* profile.module.css */
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.button:focus {
+  outline: 2px solid #005bb5;
+  outline-offset: 2px;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.image {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.details {
+  font-size: 16px;
+}
+
+.details strong {
+  display: inline-block;
+  width: 120px;
+}
